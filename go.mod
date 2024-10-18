@@ -1,4 +1,4 @@
-module outernetcouncil.org/nmts
+module github.com/GabrielFrota/nmts
 
 go 1.23.0
 
