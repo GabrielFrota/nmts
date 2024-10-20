@@ -1,4 +1,4 @@
-module github.com/GabrielFrota/nmts
+module github.com/GabrielFrota/nmtss
 
 go 1.23.0
 
