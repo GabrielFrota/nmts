@@ -17,10 +17,10 @@ package validation_test
 import (
 	"testing"
 
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
+	"github.com/GabrielFrota/nmts/lib/validation"
+	npb "github.com/GabrielFrota/nmts/proto"
 	"google.golang.org/protobuf/encoding/prototext"
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
-	"outernetcouncil.org/nmts/lib/validation"
-	npb "outernetcouncil.org/nmts/proto"
 )
 
 type testCase struct {

@@ -21,8 +21,8 @@ import (
 	"io"
 	"os"
 
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
 	"github.com/urfave/cli/v2"
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
 )
 
 const appName = "nmtscli"

@@ -57,10 +57,10 @@ cpp_proto_library(
     ],
 )
 
-# gazelle:prefix outernetcouncil.org/nmts/proto
+# gazelle:prefix github.com/GabrielFrota/nmts/proto
 go_proto_library(
     name = "nmts_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto",
+    importpath = "github.com/GabrielFrota/nmts/proto",
     proto = ":nmts_proto",
     deps = [
         "//proto/ek/logical:logical_go_proto",

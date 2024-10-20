@@ -17,9 +17,9 @@ package entityrelationship_test
 import (
 	"testing"
 
+	"github.com/GabrielFrota/nmts/lib/entityrelationship"
+	npb "github.com/GabrielFrota/nmts/proto"
 	"google.golang.org/protobuf/encoding/prototext"
-	"outernetcouncil.org/nmts/lib/entityrelationship"
-	npb "outernetcouncil.org/nmts/proto"
 )
 
 func TestEntityKindStringExamples(t *testing.T) {

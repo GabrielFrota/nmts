@@ -90,7 +90,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "logical_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/ek/logical",
+    importpath = "github.com/GabrielFrota/nmts/proto/ek/logical",
     protos = [
         ":interface_proto",
         ":logical_packet_link_proto",

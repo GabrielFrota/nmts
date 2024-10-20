@@ -29,7 +29,7 @@ proto_library(
 
 go_proto_library(
     name = "service_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/service",
+    importpath = "github.com/GabrielFrota/nmts/proto/service",
     proto = ":service_proto",
     visibility = ["//visibility:public"],
     deps = [

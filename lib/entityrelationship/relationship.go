@@ -17,7 +17,7 @@ package entityrelationship
 import (
 	"fmt"
 
-	npb "outernetcouncil.org/nmts/proto"
+	npb "github.com/GabrielFrota/nmts/proto"
 )
 
 type Relationship struct {

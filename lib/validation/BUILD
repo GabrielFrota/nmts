@@ -21,7 +21,7 @@ package(
 go_library(
     name = "validation",
     srcs = ["validation.go"],
-    importpath = "outernetcouncil.org/nmts/lib/validation",
+    importpath = "github.com/GabrielFrota/nmts/lib/validation",
     deps = [
         "//lib/entityrelationship",
         "//proto:nmts_go_proto",

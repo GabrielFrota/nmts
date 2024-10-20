@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"strings"
 
-	npb "outernetcouncil.org/nmts/proto"
+	npb "github.com/GabrielFrota/nmts/proto"
 )
 
 func EntityKindStringFromProto(e *npb.Entity) string {

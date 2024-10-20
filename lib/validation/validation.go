@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
-	npb "outernetcouncil.org/nmts/proto"
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
+	npb "github.com/GabrielFrota/nmts/proto"
 )
 
 type DefaultValidator struct {

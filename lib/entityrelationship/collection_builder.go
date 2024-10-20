@@ -17,7 +17,7 @@ package entityrelationship
 import (
 	"errors"
 
-	npb "outernetcouncil.org/nmts/proto"
+	npb "github.com/GabrielFrota/nmts/proto"
 )
 
 type Validator interface {

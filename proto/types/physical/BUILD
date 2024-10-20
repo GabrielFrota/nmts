@@ -48,7 +48,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "physical_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/physical",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/physical",
     protos = [
         ":antenna_pattern_proto",
         ":polarization_proto",

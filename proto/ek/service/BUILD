@@ -40,7 +40,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "service_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/ek/service",
+    importpath = "github.com/GabrielFrota/nmts/proto/ek/service",
     protos = [":uni_proto"],
     deps = ["//proto/types/mef:mef_go_proto"],
 )

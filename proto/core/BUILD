@@ -61,7 +61,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "core_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/core",
+    importpath = "github.com/GabrielFrota/nmts/proto/core",
     protos = [
         ":classifier_proto",
         ":packet_proto",

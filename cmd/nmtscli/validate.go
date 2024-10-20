@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/GabrielFrota/nmts/lib/validation"
 	"github.com/urfave/cli/v2"
-	"outernetcouncil.org/nmts/lib/validation"
 )
 
 func validateGraph(appCtx *cli.Context) error {

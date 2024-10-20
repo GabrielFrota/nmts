@@ -22,9 +22,9 @@ import (
 	"io"
 	"slices"
 
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
+	npb "github.com/GabrielFrota/nmts/proto"
 	"github.com/urfave/cli/v2"
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
-	npb "outernetcouncil.org/nmts/proto"
 )
 
 const orbHtmlTemplate = `

@@ -18,6 +18,6 @@ go_library(
     name = "svgstyle_lib",
     srcs = ["svgstyle.go"],
     embedsrcs = ["graphviz-style.css"],
-    importpath = "outernetcouncil.org/nmts/lib/svgstyle",
+    importpath = "github.com/GabrielFrota/nmts/lib/svgstyle",
     visibility = ["//visibility:public"],
 )

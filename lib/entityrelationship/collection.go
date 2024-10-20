@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	npb "outernetcouncil.org/nmts/proto"
+	npb "github.com/GabrielFrota/nmts/proto"
 )
 
 type Collection struct {

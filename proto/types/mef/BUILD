@@ -67,7 +67,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "mef_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/mef",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/mef",
     protos = [
         ":common_proto",
         ":sdwan_proto",

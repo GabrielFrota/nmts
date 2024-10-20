@@ -3,7 +3,7 @@
 These APIs are under active development by the maintainers of the various projects. Contributions will be considered according to the guidelines in this document. 
 
 ## Contributing
-To propose a change to the APIs, please first email the Maintainers at maintainers@outernetcouncil.org to discuss the change. 
+To propose a change to the APIs, please first email the Maintainers at maintainers@github.com/GabrielFrota to discuss the change. 
 
 Major changes to the API, such as fundamental re-architectures, will require additional discussion and will proceed once the Maintainers have aligned.
 

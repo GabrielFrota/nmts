@@ -47,7 +47,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "ieee_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/ieee",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/ieee",
     protos = [
         ":ethertype_proto",
         ":ieee802_proto",

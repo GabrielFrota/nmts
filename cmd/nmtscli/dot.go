@@ -26,12 +26,12 @@ import (
 	// nosemgrep: import-text-template
 	"text/template"
 
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
+	npb "github.com/GabrielFrota/nmts/proto"
+	eklpb "github.com/GabrielFrota/nmts/proto/ek/logical"
 	"github.com/ichiban/prolog"
 	"github.com/urfave/cli/v2"
 	"google.golang.org/protobuf/encoding/prototext"
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
-	npb "outernetcouncil.org/nmts/proto"
-	eklpb "outernetcouncil.org/nmts/proto/ek/logical"
 )
 
 func exportDot(appCtx *cli.Context) error {

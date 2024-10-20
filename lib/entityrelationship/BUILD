@@ -27,7 +27,7 @@ go_library(
         "fragments.go",
         "relationship.go",
     ],
-    importpath = "outernetcouncil.org/nmts/lib/entityrelationship",
+    importpath = "github.com/GabrielFrota/nmts/lib/entityrelationship",
     deps = [
         "//proto:nmts_go_proto",
         "@org_golang_google_protobuf//encoding/prototext",

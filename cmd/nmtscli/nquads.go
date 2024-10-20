@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"strings"
 
+	er "github.com/GabrielFrota/nmts/lib/entityrelationship"
 	"github.com/urfave/cli/v2"
-	er "outernetcouncil.org/nmts/lib/entityrelationship"
-	// npb "outernetcouncil.org/nmts/proto"
+	// npb "github.com/GabrielFrota/nmts/proto"
 )
 
 // TODO: choose sensible values for this

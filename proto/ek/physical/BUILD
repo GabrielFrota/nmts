@@ -106,7 +106,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "physical_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/ek/physical",
+    importpath = "github.com/GabrielFrota/nmts/proto/ek/physical",
     protos = [
         ":antenna_proto",
         ":common_proto",

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
+	npb "github.com/GabrielFrota/nmts/proto"
 	"google.golang.org/protobuf/encoding/prototext"
-	npb "outernetcouncil.org/nmts/proto"
 )
 
 func ReadFragmentFiles(fragmentFilenames []string) (*npb.Fragment, error) {

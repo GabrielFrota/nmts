@@ -38,7 +38,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "iana_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/iana",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/iana",
     proto = ":ipproto_proto",
 )
 

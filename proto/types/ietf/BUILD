@@ -58,7 +58,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "ietf_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/ietf",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/ietf",
     protos = [
         ":common_proto",
         ":inet_proto",

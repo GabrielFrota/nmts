@@ -59,7 +59,7 @@ i. Responsibilities: The TSC will be responsible for all aspects of oversight re
 
 j. A TSC member may be voted to be removed from the TSC by a two-thirds vote of the entire TSC.
 
-k. A TSC member may resign by submitting their resignation to the TSC [mailing list](mailto:maintainers@outernetcouncil.org).
+k. A TSC member may resign by submitting their resignation to the TSC [mailing list](mailto:maintainers@github.com/GabrielFrota).
 
 ### 3. TSC Voting
 

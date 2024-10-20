@@ -26,8 +26,8 @@ import (
 	// nosemgrep: import-text-template
 	"text/template"
 
+	npb "github.com/GabrielFrota/nmts/proto"
 	"google.golang.org/protobuf/encoding/prototext"
-	npb "outernetcouncil.org/nmts/proto"
 )
 
 var marshalOptions = prototext.MarshalOptions{

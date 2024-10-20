@@ -17,8 +17,8 @@ package core_test
 import (
 	"testing"
 
+	"github.com/GabrielFrota/nmts/proto/core"
 	"google.golang.org/protobuf/encoding/prototext"
-	"outernetcouncil.org/nmts/proto/core"
 )
 
 func TestTextParsingExamples(t *testing.T) {

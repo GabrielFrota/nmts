@@ -88,7 +88,7 @@ cpp_proto_library(
 
 go_proto_library(
     name = "geophys_go_proto",
-    importpath = "outernetcouncil.org/nmts/proto/types/geophys",
+    importpath = "github.com/GabrielFrota/nmts/proto/types/geophys",
     protos = [
         ":azimuth_elevation_mask_proto",
         ":coordinates_proto",
